@@ -1,0 +1,9 @@
+key,name,type,code_a,code_b
+BASE,Base salary,earning,100,0010
+OVERTIME,Overtime,earning,120,0200
+NIGHT,Night shift allowance,earning,130,0250
+BONUS,Performance bonus,earning,140,0400
+MEAL,Meal allowance,earning,210,0310
+SOCIAL,Social security (employee),deduction,500,9010
+TAX,Income tax withholding,deduction,510,9020
+UNION,Union fee,deduction,520,9030

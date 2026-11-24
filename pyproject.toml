@@ -1,0 +1,12 @@
+[project]
+name = "payroll-reconciliation"
+version = "1.0.0"
+description = "Compares two payroll exports item by item and lists every discrepancy before salaries are paid."
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Alexandre Lasse" }]
+dependencies = ["pandas>=2.0", "openpyxl>=3.1"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
